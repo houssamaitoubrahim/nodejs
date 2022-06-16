@@ -11,7 +11,7 @@ http.createServer(function(req,res){
                         	res.write('Welcome To Morocco!')
                         	res.end();
                         	break;
-                	case '/Casablanca':
+                	case '/casablanca':
                 		res.writeHead(200, { 'Content-Type': 'text/plain' });
                         	res.write('Morocco');
                         	res.write('\n\n');
@@ -19,7 +19,7 @@ http.createServer(function(req,res){
                         	res.write('\n');
                         	res.end('Welcome to Morocco');
                         	break;
-                	case '/Rabat':
+                	case '/rabat':
                         	res.writeHead(200, { 'Content-Type': 'text/plain' });
                         	res.write('The capital of Morocco');
                         	res.write('\n\n');
