@@ -8,7 +8,7 @@ http.createServer(function(req,res){
 	switch(q_string) {
 		case '/':
                         	res.writeHead(200, { 'Content-Type': 'text/plain' });
-                        	res.write('Welcome To Tecmint.com!')
+                        	res.write('Welcome To Morocco!')
                         	res.end();
                         	break;
                 	case '/Casablanca':
