@@ -11,19 +11,19 @@ http.createServer(function(req,res){
                         	res.write('Welcome To Tecmint.com!')
                         	res.end();
                         	break;
-                	case '/about':
+                	case '/Casablanca':
                 		res.writeHead(200, { 'Content-Type': 'text/plain' });
-                        	res.write('About Us');
+                        	res.write('Morocco');
                         	res.write('\n\n');
-                        	res.write('Tecmint.com - Best Linux HowTos on the Web.');
+                        	res.write('The biggest economic city in Morocco');
                         	res.write('\n');
-                        	res.end('Find out more: https://www.tecmint.com/who-we-are/');
+                        	res.end('Welcome to Morocco');
                         	break;
-                	case '/tecmint/authors':
+                	case '/Rabat':
                         	res.writeHead(200, { 'Content-Type': 'text/plain' });
-                        	res.write('Tecmint Authors');
+                        	res.write('The capital of Morocco');
                         	res.write('\n\n');
-                        	res.end('Find all our authors here: https://www.tecmint.com/who-we-are/');
+                        	res.end('The empire of Morocco');
                         	break;
                 	default:
                        		res.writeHead(404, { 'Content-Type': 'text/plain' });
